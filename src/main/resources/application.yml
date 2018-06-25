@@ -8,4 +8,4 @@ server:
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:8000/eureka/
+      defaultZone: http://hadoop1:8000/eureka/,http://hadoop2:8000/eureka/,http://hadoop3:8000/eureka/
